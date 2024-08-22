@@ -1,0 +1,4 @@
+
+<div class="restartButton">
+				<img src="Pictures/restart.png" width="100%" onClick="initialize_game()" alt="RestartButton" />
+			</div>

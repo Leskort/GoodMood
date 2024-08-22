@@ -1,0 +1,299 @@
+
+
+body {
+  background-color: #000000;
+  font-family: 'Share Tech Mono', monospace;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border:1px solid #d3d3d3;
+  background-color: #f1f1f1;
+  width: 90%;
+  margin-left: 5%;
+}
+img{
+  overflow-clip-margin: content-box;
+  overflow: none;  
+}
+
+div{
+  user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  overflow: none;
+}
+.restartButton{
+  margin: auto;
+  width: 150px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.restartButton:hover{
+  /* IE 11 and lower don't support filter */
+  -webkit-filter: saturate(1.6);
+  filter: saturate(1.6);
+}
+
+.resumeButton{
+  margin: auto;
+  width: 150px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.resumeButton:hover{
+  /* IE 11 and lower don't support filter */
+  -webkit-filter: saturate(1.6);
+  filter: saturate(1.6);
+}
+
+.startButton{
+  margin: auto;
+  width: 150px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.startButton:hover{
+  /* IE 11 and lower don't support filter */
+  -webkit-filter: saturate(1.6);
+  filter: saturate(1.6);
+}
+.clinton{
+  display: inline-block;
+  /* padding: 18px 28px; */
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  /* border-radius: 15px;
+  box-shadow: 0 9px #999; */
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+.button {
+  display: inline-block;
+  /* padding: 18px 28px; */
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  /* border-radius: 15px;
+  box-shadow: 0 9px #999; */
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+@media screen and (max-width: 480px) {
+  .button {
+    margin-top: 50px;
+   }
+ }
+
+.button:hover {
+  /* IE 11 and lower don't support filter */
+  -webkit-filter: saturate(1.6);
+  filter: saturate(1.6);
+}
+
+.button:active {
+  /* IE 11 and lower don't support filter */
+  -webkit-filter: saturate(1.6);
+  filter: saturate(1.6);
+  transform: translateY(1px);
+}
+.buttonImages{
+    width:100%;
+    height:100%;
+    border: none;
+    outline: none;
+    cursor: none;
+    user-select: none;
+}
+
+#buttonRestart {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    white-space: normal;
+    float: left;
+    margin-left: 5%;
+}
+
+#buttonWrapper{
+  margin-top: 20px;
+  text-align: center;
+  max-width: 99%;
+}
+
+#buttonController
+{
+    display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    white-space: normal;
+}
+
+#buttonPauseAudio
+{
+    display: inline-block;
+	max-width: 45%;
+	text-align: center;
+    vertical-align: middle;
+    margin-right: 4%;
+	float: right;
+}
+
+#buttonPause{
+	float: right;
+	margin-bottom: 7%;
+	overflow: auto;
+}
+
+#buttonAudio{
+	float: right;
+    margin-bottom: 7%;
+    overflow: auto;
+}
+
+/* Mobile */
+@media screen and (max-width: 1030px) {
+  #buttonPauseAudio {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    /* margin: 0 auto; */
+    flex-direction: row;
+    align-items: baseline;
+    }
+}
+@media screen and (max-width: 945px) {
+  #buttonPauseAudio {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    /* margin: 0 auto; */
+    flex-direction: row;
+    align-items: baseline;
+    }
+}
+@media screen and (max-width: 725px) {
+  #buttonPauseAudio {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    /* margin: 0 auto; */
+    flex-direction: row;
+    align-items: baseline;
+    }
+}
+@media screen and (max-width: 534px) {
+  #buttonPauseAudio {
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    /* margin: 0 auto; */
+    flex-direction: row;
+    align-items: baseline;
+    }
+    #buttonController {
+      display: flex;
+      width: 100%;
+      
+  }
+}
+@media screen and (max-width: 524px) {
+  
+    #buttonController {
+      display: flex;
+      width: 100%;
+      
+  }
+}
+@media screen and (max-width: 480px) {
+ #buttonPauseAudio {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+  /* margin: 0 auto; */
+  flex-direction: row;
+  align-items: baseline;
+  }
+  #buttonRestart {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    white-space: normal;
+    float: left;
+    margin-left: -13%;
+   }
+   #buttonController {
+    display: flex;
+    width: 100%;
+    
+}
+#buttonRestart {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  white-space: normal;
+  float: left;
+  margin-left: -13%;
+ }
+}
+
+ }
+
+@media screen and (max-width: 360px) {
+  #buttonPauseAudio {
+   display: flex;
+   width: 100%;
+   margin-top: 100px;
+   /* margin: 0 auto; */
+   flex-direction: row;
+   align-items: baseline;
+   }
+ }
+
+ @media screen and (max-width: 480px) {
+  canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    width: 90%;
+    height: 270px;
+    margin-left: 5%;
+ }
+ @media screen and (max-width: 360px) {
+  canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    width: 110%;
+    height: 270px;
+    margin-left: 5%;
+  }
+  #buttonController {
+    display: flex;
+    width: 130%;
+    
+}
+}
